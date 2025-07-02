@@ -1,5 +1,7 @@
 # 🧠 Voice AI Demo with Groq & Google Sheets Logging
 
+https://github.com/user-attachments/assets/f5f8a41b-1780-4d5c-aabb-bb30b565bf05
+
 A voice-based AI assistant that:
 - Takes your **voice input**
 - Uses **Groq's blazing-fast LLaMA3-70B** to generate a smart response
