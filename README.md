@@ -36,3 +36,47 @@ A voice-based AI assistant that:
 ```bash
 git clone https://github.com//voice-ai-groq-demo.git
 cd voice-ai-groq-demo
+
+```
+---
+###2. Create Virtual Environment
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+---
+###3. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+---
+###🔐 Environment Variables
+Create a .env file with your Groq API key:
+
+```bash
+GROQ_API_KEY=your_groq_api_key
+```
+---
+📊 Google Sheets Setup:
+
+-  Create a Google Sheet (e.g. VoiceAI Logs)
+-  Add this header row: Timestamp | User Input | GPT Reply
+-  Go to Google Cloud Console
+-  Enable Google Sheets API and Google Drive API
+-  Create a service account
+-  Download the creds.json key file
+-  Share the Google Sheet with the service account’s client email (Editor access)
+- Place creds.json in the project folder (but do not commit it)
+
+🧠 How to Run
+```bash
+python main.py
+```
+Then:
+Speak into your mic,
+Wait for the reply.
+Say "exit" to stop the program
+
+
